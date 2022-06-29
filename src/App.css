@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-image: url(https://www.ana.co.jp/share/wallpaper/image/2206/cal/cal_d1920.jpg);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.app-header{
+width: 100%;
+height: 250px;
+background-color: rgba(20, 167, 230, 0.057);
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.todo-list{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.todo-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1em;
+  border-radius: 8px;
+  box-shadow: -1px 0px 5px 4px rgba(212, 212, 212, 0.322);
+  margin-top: 10px;
+}
+.done{
+  background-color: rgb(184, 205, 235);
+}
+.undone{
+  background-color: rgba(23, 144, 201, 0.438);
+}
+.add-task{
+  width: 100%;
+  padding: 1.1em;
+  border-radius: 8px;
+  box-shadow: -1px 0px 5px 4px rgb(212, 212, 212, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+.add-task >*{
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+}
+.add-task button{
+  background-color: rgb(20, 128, 230);
+  padding: 1.1em;
+  color: white;
+  border: none;
+}
+.inps > * {
+  width:100% ;
+  margin-top: 10px;
+  padding: 1.1em;
+}
